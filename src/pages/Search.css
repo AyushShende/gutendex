@@ -1,0 +1,66 @@
+.searchHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.searchHeaderContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.searchHeaderTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.searchHeaderTitleName {
+  color: #5e56e7;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.searchBoxWrapper {
+  position: relative;
+}
+.searchBox {
+  height: 40px;
+  border: none;
+  width: 800px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8f7ff;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #a0a0a0;
+  text-align: center;
+}
+
+.searchIcon {
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  margin-right: 10px;
+}
+
+.searchBody{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardWrapper{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: center;
+}

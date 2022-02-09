@@ -1,0 +1,62 @@
+/*Home Header Styles*/
+
+.homeHeader {
+  height: 200px;
+  background: url("../../public/images/Pattern.svg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerContentTitle {
+  color: #5e56e7;
+  font-size: 48px;
+  padding: 5px;
+}
+
+.headerContentDesc {
+  font-size: 16px;
+  width: 750px;
+}
+
+/*Home Body Styles*/
+
+.homeBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBodyItem {
+  display: flex;
+  width: 800px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.ItemWrapper {
+  margin: 10px 50px 15px 10px;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+.homeBodyItemTitle {
+  display: flex;
+  align-items: center;
+}
+.homeBodyItemTitleImg {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.homeBodyItemTitleName {
+  font-weight: 500;
+  font-size: 20px;
+}
